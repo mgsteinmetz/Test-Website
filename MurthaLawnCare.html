@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<!--All HEADING information-->
+
+<head>
+	<link rel="stylesheet" href="STYLELawnCare.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family= NotoSans|Prata|Trirong">
+	<link rel="stylesheet" href="npm i bootstrap-icons">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	<title>Murtha Lawn Care</title>
+</head>
+
+<!--All BODY information-->
+
+<body>
+	<header>
+		<ul class="contact-bar">
+			<svg class="icon-phone" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
+				<path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"/>
+			</svg>
+			<a href="#"> Call: 715-977-2637</a>
+			<svg class="icon-person" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+				<path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+			</svg>
+			<a href="#">Jacob Murtha</a>
+			<svg class="icon-location" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+				<path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+			</svg>
+			<a href="https://hammondwi.org/" target="blank">Hammond, Wisconsin</a>
+		</ul>
+	</header>
+	<nav>
+		<div class="logo">
+			
+		</div>
+
+	<!--The Responsive sidebar w/ dropdown button-->
+
+		<div class="nav-links">
+			<a href="#">Home</a>
+			<a href="#">About Us</a>
+			<div class="dropdown">
+				<button class="services-dropdown">Services
+					<i class="caret-icon"></i>
+				</button>
+				<div class="dropdown-container">
+					<a href="#">Link 1</a>
+					<a href="#">Link 2</a>
+					<a href="#">Link 3</a>
+				</div>
+			</div>
+			<a href="#">Gallery</a>
+			<a href="#">Rates</a>
+			<a href="#"> Contact Us</a>
+		</div>
+	</nav>
+	<main>
+
+	<!--slideshow images-->
+
+		<div class="slideshow-container">
+
+			<div class="myslides">
+				<img src="images/lawn3.jpg" style="width:100%">
+				<div class="text">Caption Text</div>
+			</div>
+			<div class="myslides">
+				<img src="images/mower1.jpg" style="width:100%">
+				<div class="text">Our 2020 Ferris ISX 3300 72" Zero Turn</div>
+			</div>
+			<div class="myslides">
+				<img src="images/lawn1.jpg" style="width:100%">
+				<div class="text">Caption Three</div>
+			</div>
+
+	<!--next buttons on slideshow-->
+	        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+	    </div>
+		<br>
+
+	<!--dots/circles-->
+		<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+		  </div>
+		
+		<h1>Murtha Lawn Care, LLC.</h1>
+			<p> Murtha Lawn Care is a small business that first started in the town of Hammond, Wisconsin. As we continue to grow we are always looking for the next lawn to trim, and make beautiful!
+				Here at Murtha Lawn Care we always put our customers first, and always love your feedback. We all love what we do here, and make sure that we give all our effort into making your lawn look amazing!
+			</p>
+	</main>
+	<script src="STYLELawnCare.js"></script>
+</body>
+</html>
